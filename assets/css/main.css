@@ -2,7 +2,7 @@
 Theme Name: Exolax
 Author: Gramentheme
 Author URI: https://themeforest.net/user/Gramentheme
-Description: Exolax - Creative Agency Html Template
+Description: Keval-Ai
 Version: 1.0.0
 */
 /*CSS Table Of Content Ends Here*/
@@ -13,7 +13,7 @@ Version: 1.0.0
   --black: #000;
   --white: #fff;
   --theme: #59D2F3;
-  --theme2: #5AE70E;
+  --theme2: #59D2F3;
   --theme3: #A80EE6;
   --header: #17012C;
   --header2: #1E1E1E;
@@ -3940,7 +3940,8 @@ span {
 }
 @media (max-width: 1399px) {
   .hero-1 .hero-content h1 {
-    font-size: 120px;
+    font-size: 90px;
+    /* margin-top: 50px; */
   }
 }
 @media (max-width: 1199px) {
@@ -8543,7 +8544,7 @@ input.main-search-input::placeholder {
     /* Hide text by default */
 /* Hide by default */
 .service-wrapper-4 .service-tabing-wrap .accordion-single .accordion-btn .hover_text {
-  max-width: 490px;
+  max-width: 450px;
   opacity: 0;
   margin-top: -400px;
   visibility: hidden;
@@ -8618,4 +8619,11 @@ input.main-search-input::placeholder {
 
 .custom-btn i{
   font-size: 50px;
+}
+
+.heading_text{
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
 }
