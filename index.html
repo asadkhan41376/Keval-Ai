@@ -37,35 +37,15 @@
 
 <body>
   <!-- Preloader Start -->
-  <div id="preloader" class="preloader">
-    <div class="animation-preloader">
-      <div class="spinner"></div>
-      <div class="txt-loading">
-        <span data-text-preloader="K" class="letters-loading"> K </span>
-        <span data-text-preloader="E" class="letters-loading"> E </span>
-        <span data-text-preloader="V" class="letters-loading"> V </span>
-        <span data-text-preloader="A" class="letters-loading"> A </span>
-        <span data-text-preloader="L" class="letters-loading"> L </span>
-      </div>
-      <p class="text-center">Loading</p>
-    </div>
-    <div class="loader">
-      <div class="row">
-        <div class="col-3 loader-section section-left">
-          <div class="bg"></div>
-        </div>
-        <div class="col-3 loader-section section-left">
-          <div class="bg"></div>
-        </div>
-        <div class="col-3 loader-section section-right">
-          <div class="bg"></div>
-        </div>
-        <div class="col-3 loader-section section-right">
-          <div class="bg"></div>
-        </div>
-      </div>
-    </div>
-  </div>
+ <div id="preloader" class="preloader">
+  <svg class="pl" width="240" height="240" viewBox="0 0 240 240">
+    <circle class="pl__ring pl__ring--a" cx="120" cy="120" r="105" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 660" stroke-dashoffset="-330" stroke-linecap="round"></circle>
+    <circle class="pl__ring pl__ring--b" cx="120" cy="120" r="35" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 220" stroke-dashoffset="-110" stroke-linecap="round"></circle>
+    <circle class="pl__ring pl__ring--c" cx="85" cy="120" r="70" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 440" stroke-linecap="round"></circle>
+    <circle class="pl__ring pl__ring--d" cx="155" cy="120" r="70" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 440" stroke-linecap="round"></circle>
+  </svg>
+</div>
+
 
   <!-- Back To Top Start -->
   <button id="back-top" class="back-to-top">
@@ -157,7 +137,7 @@
                   <li>
                     <a href="#"> Services </a>
                     <ul class="submenu">
-                      <li><a href="#">Service</a></li>
+                      <li><a href="service.html">Service</a></li>
                       <li>
                         <a href="#">Service Details</a>
                       </li>
@@ -930,6 +910,19 @@
                   </div>
                 </div>
               </div>
+              <div class="text-center">
+                 <div class="header-button ">
+              <a href="" class="theme-btn bg-black border-white">
+                <span class="icon-1">
+                  <img src="assets/img/icon/10.svg" alt="img" />
+                </span>
+                View All Services
+                <span class="icon-2">
+                  <img src="assets/img/icon/11.svg" alt="img" />
+                </span>
+              </a>
+            </div>
+              </div>
             </div>
           </div>
         </div>
@@ -1103,11 +1096,11 @@
           <!-- 🟢 Column 2: Page Links -->
           <div class="footer-links">
             <h3 style="color: #fff; margin-bottom: 10px">Quick Links</h3>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Services</a>
             <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
+            <a href="contact.html">Contact</a>
           </div>
 
           <!-- 🟢 Column 3: Social -->

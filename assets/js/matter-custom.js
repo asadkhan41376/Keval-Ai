@@ -24,7 +24,7 @@ function initSimulation() {
         width: containerWidth,
         height: containerHeight,
         pixelRatio: 2,
-        background: "#59D2F3",
+        background: "",
         wireframes: false,
       },
     });
