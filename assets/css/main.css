@@ -3949,18 +3949,18 @@ span {
 }
 @media (max-width: 1199px) {
   .hero-1 .hero-content h1 {
-    font-size: 160px;
+    font-size: 90px;
   }
 }
 @media (max-width: 991px) {
   .hero-1 .hero-content h1 {
-    font-size: 130px;
+    font-size: 90px;
     line-height: 90%;
   }
 }
 @media (max-width: 767px) {
   .hero-1 .hero-content h1 {
-    font-size: 100px;
+    font-size: 90px;
   }
 }
 @media (max-width: 575px) {
@@ -6895,28 +6895,28 @@ input.main-search-input::placeholder {
   border-bottom: 1px solid var(--border);
 }
 .service-wrapper ul .service-list .content h3 {
-  font-size: 150px;
+  font-size: 70px;
   font-weight: 500;
   transition: all 0.4s ease-in-out;
 }
 @media (max-width: 1399px) {
   .service-wrapper ul .service-list .content h3 {
-    font-size: 130px;
+    font-size: 70px;
   }
 }
 @media (max-width: 1199px) {
   .service-wrapper ul .service-list .content h3 {
-    font-size: 120px;
+    font-size: 70px;
   }
 }
 @media (max-width: 991px) {
   .service-wrapper ul .service-list .content h3 {
-    font-size: 100px;
+    font-size: 70px;
   }
 }
 @media (max-width: 767px) {
   .service-wrapper ul .service-list .content h3 {
-    font-size: 80px;
+    font-size: 70px;
   }
 }
 @media (max-width: 575px) {
@@ -8837,4 +8837,9 @@ input.main-search-input::placeholder {
     stroke-width: 20;
     stroke-dashoffset: -440;
   }
+}
+
+
+.header-logo h3{
+  color: white;
 }
