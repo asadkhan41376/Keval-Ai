@@ -482,7 +482,7 @@ span {
   margin-bottom: 10px;
 }
 .mission-wrapper .mission-content .header-title h3 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 400;
 }
 .mission-wrapper .mission-content .list-items li {
@@ -2723,7 +2723,7 @@ span {
 .header-main .main-menu ul li .submenu li a {
   position: relative;
   z-index: 11;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 500;
   color: var(--header);
   padding: 0 0;
@@ -3119,6 +3119,7 @@ span {
 }
 .sticky.header-1 .header-main .main-menu ul li a {
   color: var(--header);
+  font-size: 15px;
 }
 .sticky.header-1 .header-main .main-menu ul li a:hover {
   color: var(--theme) !important;
@@ -6901,33 +6902,33 @@ input.main-search-input::placeholder {
   border-bottom: 1px solid var(--border);
 }
 .service-wrapper ul .service-list .content h3 {
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 500;
   transition: all 0.4s ease-in-out;
 }
 @media (max-width: 1399px) {
   .service-wrapper ul .service-list .content h3 {
-    font-size: 70px;
+    font-size: 50px;
   }
 }
 @media (max-width: 1199px) {
   .service-wrapper ul .service-list .content h3 {
-    font-size: 70px;
+    font-size: 50px;
   }
 }
 @media (max-width: 991px) {
   .service-wrapper ul .service-list .content h3 {
-    font-size: 70px;
+    font-size: 50px;
   }
 }
 @media (max-width: 767px) {
   .service-wrapper ul .service-list .content h3 {
-    font-size: 70px;
+    font-size: 50px;
   }
 }
 @media (max-width: 575px) {
   .service-wrapper ul .service-list .content h3 {
-    font-size: 65px;
+    font-size: 55px;
   }
 }
 .service-wrapper ul .service-list .content h3 a:hover {
@@ -7281,24 +7282,25 @@ input.main-search-input::placeholder {
   background-color: var(--theme);
 }
 .service-details-wrapper .main-sidebar .single-sidebar-widget .service-widget-categories ul li.active a {
-  color: var(--header);
+  color: white;
+
 }
 .service-details-wrapper .main-sidebar .single-sidebar-widget .service-widget-categories ul li.active span {
-  color: var(--header);
+ color: white;
 }
 .service-details-wrapper .service-details-content h3 {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 500;
   margin-bottom: 20px;
 }
 @media (max-width: 767px) {
   .service-details-wrapper .service-details-content h3 {
-    font-size: 52px;
+    font-size: 40px;
   }
 }
 @media (max-width: 575px) {
   .service-details-wrapper .service-details-content h3 {
-    font-size: 42px;
+    font-size: 40px;
   }
 }
 .service-details-wrapper .service-details-content .thumb {
