@@ -38,9 +38,9 @@ Version: 1.0.0
   outline: none !important;
   background-color: transparent;
   color: var(--header);
-  font-size: 12px !important;
+  font-size: 13px !important;
   font-weight: 500;
-  padding: 18px 35px;
+  padding: 15px 20px;
   transition: 0.5s ease-in-out;
   text-transform: uppercase;
   position: relative;
@@ -1269,7 +1269,7 @@ span {
   margin-bottom: 60px;
 }
 .brand-wrapper h4 span {
-  color: var(--theme);
+  color: var(--theme2);
 }
 .brand-wrapper .brand-image {
   text-align: center;
@@ -3947,10 +3947,11 @@ span {
 .hero-1 .hero-content h1 {
   margin-top: 20px;
   color: var(--white);
+  text-transform: capitalize;
 }
 @media (max-width: 1399px) {
   .hero-1 .hero-content h1 {
-    font-size: 70px;
+    font-size: 50px;
     /* margin-top: 50px; */
   }
 }
@@ -6693,7 +6694,7 @@ input.main-search-input::placeholder {
   color: var(--header2);
 }
 .project-box-items-4 .project-content .content h3 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
 }
 .project-box-items-4 .project-content .content h3 a {
@@ -7663,7 +7664,7 @@ input.main-search-input::placeholder {
   font-size: 40px;
   font-weight: 500;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--header2);
+  -webkit-text-stroke-color: var(--theme2);
   -webkit-text-fill-color: transparent;
   transition: all 0.4s ease-in-out;
   line-height: 1;
@@ -8989,7 +8990,7 @@ input.main-search-input::placeholder {
 }
 
 .footer-subscribe button {
-  background: linear-gradient(90deg, #00bfff, #7b61ff);
+ background: var(--theme2);
   border: none;
   color: #fff;
   padding: 10px 18px;
@@ -9010,7 +9011,7 @@ input.main-search-input::placeholder {
 }
 
 .footer-social a {
-  background: rgba(255, 255, 255, 0.08);
+ background: var(--theme);
   width: 36px;
   height: 36px;
   border-radius: 50%;
@@ -9022,7 +9023,7 @@ input.main-search-input::placeholder {
 }
 
 .footer-social a:hover {
-  background: linear-gradient(90deg, #00bfff, #7b61ff);
+  background: var(--theme2);
   transform: translateY(-2px);
 }
 
@@ -9036,3 +9037,5 @@ input.main-search-input::placeholder {
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   padding-top: 20px;
 }
+
+
