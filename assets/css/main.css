@@ -36,7 +36,7 @@ Version: 1.0.0
   -webkit-appearance: none;
   border: none;
   outline: none !important;
-  background-color: transparent;
+  background-color: var(--theme2);
   color: var(--header);
   font-size: 13px !important;
   font-weight: 500;
@@ -96,7 +96,7 @@ Version: 1.0.0
 }
 .theme-btn.border-white {
   border: 1px solid var(--white);
-  color: var(--white);
+  color:white;
 }
 .theme-btn.border-white:hover {
   color: var(--header);
@@ -219,7 +219,7 @@ h6 {
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 60px;
   font-weight: 600;
   line-height: 80%;
 }
@@ -3125,7 +3125,7 @@ span {
   color: var(--theme) !important;
 }
 .sticky.header-1 .header-button .theme-btn {
-  background-color: var(--black);
+  background-color: var(--theme2);
   color: var(--white);
 }
 .sticky.header-1 .sidebar__toggle {
@@ -3951,29 +3951,29 @@ span {
 }
 @media (max-width: 1399px) {
   .hero-1 .hero-content h1 {
-    font-size: 50px;
+    font-size: 40px;
     /* margin-top: 50px; */
   }
 }
 @media (max-width: 1199px) {
   .hero-1 .hero-content h1 {
-    font-size: 90px;
+    font-size: 40px;
   }
 }
 @media (max-width: 991px) {
   .hero-1 .hero-content h1 {
-    font-size: 90px;
+    font-size: 50px;
     line-height: 90%;
   }
 }
 @media (max-width: 767px) {
   .hero-1 .hero-content h1 {
-    font-size: 90px;
+    font-size: 50px;
   }
 }
 @media (max-width: 575px) {
   .hero-1 .hero-content h1 {
-    font-size: 70px;
+    font-size: 50px;
     line-height: 100%;
   }
 }
@@ -6706,9 +6706,10 @@ input.main-search-input::placeholder {
 .project-box-items-4 .project-content .theme-btn {
   border-radius: 0;
   border: 1px solid var(--header2);
-  color: var(--header2);
+  color: white;
   font-size: 18px;
   min-width: 190px;
+  border-radius: 5px;
 }
 .project-box-items-4 .project-content .theme-btn:hover {
   border: 1px solid var(--theme);
@@ -6751,7 +6752,7 @@ input.main-search-input::placeholder {
   font-size: 20px;
   font-weight: 400;
   text-transform: uppercase;
-  color: var(--theme);
+  color: var(--theme2);
   line-height: 1;
    font-family: "Montserrat", sans-serif;
   display: inline-block;
