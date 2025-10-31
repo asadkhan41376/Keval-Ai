@@ -3907,6 +3907,7 @@ span {
 }
 .hero-1::before {
   position: absolute;
+  display: none;
   top: 0;
   left: 0;
   right: 0;
@@ -9040,3 +9041,51 @@ input.main-search-input::placeholder {
 }
 
 
+
+.theme-btn2 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  border: none;
+  outline: none !important;
+  background-color: var(--theme);
+  color: white !important;
+  font-size: 13px !important;
+  font-weight: 500;
+  padding: 15px 20px;
+  transition: 0.5s ease-in-out;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 1;
+   font-family: "Montserrat", sans-serif;
+  border: 1px solid var(--header);
+  min-width: 160px;
+}
+
+.theme-btn2:hover{
+  color: white !important;
+  background-color: var(--theme2);
+}
+
+
+.weKnow_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weKnow_section .weKnow_section_bg_image {
+ background: radial-gradient(circle at top right,var(--theme), transparent 30%);
+  width: 90%;
+  border-radius: 30px 30px 0 0;
+}
+
+
+.image_border:hover.image_border img{
+  transition: all 0.8s ease;
+  scale: 1.1;
+}
